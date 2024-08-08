@@ -1,0 +1,30 @@
+<hr>
+<ul>
+  <li>Cores
+  <ul>
+  <li>Verde
+  <ul>
+    <li>Verde Escuro</li>
+    <li>Verde Claro</li>
+  </ul>
+  </li>
+  </ul>
+  </li>
+</ul>
+<h1>Listas de Definições</h1>
+<dl>
+  <dt>Titulo da definição</dt>
+  <dd>A descrição</dd>
+<dt>Apple</dt>
+<dd>Maçã</dd>
+</dl>
+<p>Texto em <i>itálico</i> </p>
+<p>Texto em <em>itálico com narração</em> </p>
+<p>Texto <mark>destacado</mark> </p>
+<p>Texto <mark><i><b><s>combinado</s></b></i></mark></p>
+<p>Texto <sup>sobrescrito</sup> </p>
+<p>Texto <sub>subrescrito</sub> </p>
+<p>2x<sup>2</sup> * log<sub>2</sub>n </p>
+<p>Texto de <small>rodapé</small>fica um pouco menor </p>
+<p>Texto <code>de código</code>código </p>
+<p>Texto &nbsp </p>
