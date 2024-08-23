@@ -28,3 +28,70 @@
 <p>Texto de <small>rodapé</small>fica um pouco menor </p>
 <p>Texto <code>de código</code>código </p>
 <p>Texto &nbsp </p>
+
+
+
+
+
+
+
+
+
+<html>
+	<head>
+		<title>Tabelas com HTML</title>
+		<meta charset="UTF-8">
+          <style>
+             th {
+		border: 1px solid black;
+             }
+             table, td{
+                border: 1px solid red;
+             }
+	  </style>
+	</head>
+	<body>
+		<h1>Tabelas com HTML</h1>
+		<table>	
+                  <thead>	  
+                  	<tr>
+						<th colspan="2">produto</th>
+						</tr>
+						<tr>
+							<th >Código</th>
+							<th >Nome</th>
+						</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td rowspan="3"> Fulano DeTal</td>
+						<td> Rua Central, Joinville</td>
+					</tr>
+					<tr>
+						<td>+55 47 99999-9999</td>
+					</tr>
+					<tr>
+						<td>fulanodetal@mail.com</td>
+					</tr>
+				</tbody>
+				<th>País</th>
+				<th>Capital</th>
+		  	</tr>	
+                  </thead>
+                  <tbody>
+		  <tr>
+			<td>Argentina</td>
+			<td>Buenas Aires</td>
+		  </tr>	
+                  <tr>
+			<td>Brasil</td>
+			<td>Brasília</td>
+		  </tr>	
+                  </tbody>
+                  <tfoot>
+                     <tr><td>Rodapé</td></tr>
+	          </tfoot>
+                  <caption>Título da tabela</caption>
+		</table>
+	</body>
+</html>
