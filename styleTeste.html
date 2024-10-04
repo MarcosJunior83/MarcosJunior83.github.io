@@ -1,0 +1,82 @@
+/* Seletores de Elemento */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header, footer {
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Seletores de Classe */
+.logo {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Seletores Descendentes */
+footer .social-media a {
+    color: #ecf0f1;
+    margin: 0 10px;
+}
+
+footer .social-media a:hover {
+    color: #3498db;
+}
+
+/* Estilização das Postagens */
+.post {
+    background-color: white;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.post-title {
+    color: #2c3e50;
+}
+
+/* Pseudoclasses */
+.post-title:hover {
+    color: #3498db;
+}
+
+/* Pseudo-elementos */
+.post::before {
+    content: "Postagem: ";
+    font-weight: bold;
+}
+
+/* Seletores Universais e de Atributo */
+* {
+    box-sizing: border-box;
+}
+
+a {
+    transition: color 0.3s;
+}
