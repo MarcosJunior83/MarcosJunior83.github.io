@@ -1,23 +1,42 @@
-h2, p, em{
-    font-size: 15px;
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: gainsboro;
 }
-div { margin-top: 15px;
-    margin-left: 15px;
-    margin-right: 15px;
-    background-color: green;
-}
-
-div { border-top: 12px;
-    border-style: solid;
-    border-width: 1px;
-    border-radius: 5px;
-    border-color: black;
+header, footer {
+    background-color: #2b6873;
+    color: white;
+    padding: 20px;
+    text-align: center;
 }
 
-div { padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 10px;}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
 
-div { background-color: gray;}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
 
+nav ul li a:hover {
+    text-decoration: underline;
+}
+footer .social-media a {
+    color: #ecf0f1;
+    margin: 0 10px;
+}
+
+footer .social-media a:hover {
+    color: #c891ff;
+}
+
+.post {
+    background-color: white;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
